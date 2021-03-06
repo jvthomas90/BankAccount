@@ -7,6 +7,7 @@ def get_random_string(length):
     return randomized
 
 class BankAccount:
+    
     #Creates a bank account class with 5 methods for various functions defined below
     def __init__(self, full_name, account_number, routing_number, balance):
         """
