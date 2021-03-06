@@ -6,9 +6,8 @@ def get_random_string(length):
     randomized = ''.join((random.choice(digits) for i in range(length)))
     return randomized
 
-class BankAccount:
-    
-    #Creates a bank account class with 5 methods for various functions defined below
+class BankAccount: #Creates a bank account class with 5 methods for various functions defined below
+
     def __init__(self, full_name, account_number, routing_number, balance):
         """
         Constructor that initializes a new instance of a bank account class
